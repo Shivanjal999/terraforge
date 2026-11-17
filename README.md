@@ -36,3 +36,9 @@ terraform destroy -var="my_ip=YOUR_IP/32"
 - Store Terraform state remotely in S3
 - Add a private subnet and a load balancer
 - Run `terraform plan` automatically with GitHub Actions
+
+
+## Output
+![TerraForge live](images/terraforge-live.png)
+
+![Destroy complete](images/terraforge-destroy-live.png)
